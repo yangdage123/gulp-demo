@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "gulp jsmin"
+    "build": "gulp jsmin",
+    "create": "node create-gulpfile.js"
   },
   "author": "",
   "license": "ISC",
