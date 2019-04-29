@@ -19,7 +19,7 @@ gulp.task('jsmin', function () {
 });
 `;
 
-fs.writeFile('gulpfile.js', fileStr, function (err) {
+fs.writeFileSync('gulpfile.js', fileStr, function (err) {
   if (err) {
     return console.error(err);
   }
